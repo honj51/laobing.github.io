@@ -1,40 +1,35 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-
-    <title>Laobing.GitHub.io by honj51</title>
-  </head>
-
-  <body>
-
-    <header>
-      <div class="container">
-        <h1>Laobing.GitHub.io</h1>
-        <h2>Laobing blog</h2>
-
-        <section id="downloads">
-          <a href="https://github.com/honj51/laobing.github.io/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/honj51/laobing.github.io/tarball/master" class="btn">Download as .tar.gz</a>
-          <a href="https://github.com/honj51/laobing.github.io" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
-
-    <div class="container">
-      <section id="main_content">
-        <h1>
-<a id="laobinggithubio" class="anchor" href="#laobinggithubio" aria-hidden="true"><span class="octicon octicon-link"></span></a>laobing.github.io</h1>
-
-<p>Laobing blog</p>
-      </section>
-    </div>
-
-    
-  </body>
-</html>
+<style>
+*{padding:0;margin:0;}
+ul,li{list-style:none;}
+.nv1 li{float:left;width:100px;background:#000;position:relative;height:25px;margin:10px;}
+.nv1 li span{display:block;text-align:center;line-height:25px;color:#F00; cursor:pointer;}
+.crm_menu ul{position:absolute;top:25px;left:0px;}
+.crm_menu ul li{float:none;}
+</style>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script>
+$(function(){
+	$(".crm_menu").hide();	   
+	$(".nv1 li").click(function(){
+		$(".crm_menu",this).(300);					 
+	})
+})
+</script>
+<ul class="nv1">
+    <li><span> 移动到1</span>
+        <ul class="crm_menu">
+			<li><a href="">这个是样式1</a></li>	
+        </ul>
+    </li>
+    <li><span> 移动到2</span>
+        <ul class="crm_menu">
+			<li><a href="">这个是样式2</a></li>	
+        </ul>
+    </li>
+     <li><span> 移动到3</span>
+        <ul class="crm_menu">
+			<li><a href="">这个是样式3</a></li>	
+        </ul>
+    </li>
+   
+</ul>
